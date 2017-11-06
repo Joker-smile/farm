@@ -1,0 +1,174 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-19 17:24:46
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-07-06 15:30:47
+*/
+.con {
+    width: 8.92rem;
+    height: 7rem;
+    padding: .54rem .54rem 0;
+    background-color: #fff;
+}
+.con form {
+    width: 8.92rem;
+    height: 7rem;
+}
+.form-slide {
+    width: 8.92rem;
+    line-height: 0.59rem;
+    font-size: .4rem;
+    margin-bottom: .54rem;
+}
+.form-slide:first-child {
+    height: 1.76rem;
+}
+.form-slide:first-child a {
+    display: block;
+    float: left;
+    width: 1.76rem;
+    height: 1.76rem;
+}
+.form-slide a img {
+    width: 100%;
+    height: 100%;
+}
+.form-slide h2 {
+    float: left;
+    width: 1.72rem;
+    text-align: right;
+    padding-right: 1.08rem;
+}
+.form-slide input {
+    outline:none;
+    border: none;
+    width: 6.12rem;
+}
+.form-slide:last-child input {
+    width: 1rem;
+}
+.birthdate select {
+    outline: none;
+    border: none;
+}
+.birthdate span {
+    margin-right: .2rem;
+}
+.birthdate select option {
+    text-align: right;
+
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10rem;
+    height: 1.2rem;
+    border-top: 1px solid #f2f2f2;
+}
+.foot a {
+    float: left;
+    display: block;
+    width: 5rem;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: .4rem;
+}
+.f-cancel {
+    background-color: #fff;
+    color: #808080;
+}
+.f-save {
+    background-color: #48be43;
+    color: #fff;
+}
+
+/*弹窗*/
+.screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 995;
+}
+.pop-up {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6.92rem;
+    height: 4.32rem;
+    padding: 0.54rem;
+    margin: -2.7rem 0 0 -4rem;
+    background-color: #fff!important;
+    border-radius: 4px;
+}
+.pop-up .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0.54rem;
+    height: 0.54rem;
+    background: url(../image/s/close_icon.png) center center no-repeat;
+    background-size: 70% auto;
+}
+.pop-up h2 {
+    line-height: 1.41rem;
+    color: #48be43;
+    font-size: 0.6rem;
+}
+.pop-choose {
+    width: 6.92rem;
+    height: 1rem;
+}
+.pop-choose p {
+    float: left;
+    width: 3.46rem;
+    line-height: 1rem;
+    font-size: 0.32rem;
+}
+.pop-choose p span {
+    float: left;
+    display: block;
+    width: 0.34rem;
+    height: 0.34rem;
+    margin-right: .3rem;
+    margin-top: .3rem;
+    background-color: #fff;
+    border: 1px solid #48be43;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.pop-choose p span.choose-active {
+    width: .26rem;
+    height: .26rem;
+    border: .04rem solid #fff;
+    box-shadow: 0 0 0 1px #48be43;
+    background-color: #48be43;
+}
+
+.pop-in {
+    position: absolute;
+    bottom: .54rem;
+    width: 6.92rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.pop-in span {
+    float: left;
+    display: block;
+    width: 3.2rem;
+    text-align: center;
+    font-size: .4rem;
+    box-shadow: inset 0 0 1px 0 #808080;
+    border-radius: 4px;
+}
+.pop-in span.cancel {margin-right: .52rem; color: #808080;}
+.pop-in span.confirm {
+    background-color: #48be43;
+    color: #fff;
+}

@@ -1,0 +1,122 @@
+
+.address-c{
+	bottom: 1.2rem;
+	width: 10rem;
+	background-color: #fff;
+}
+.address-head {
+	width: 9rem;
+	margin: 0 auto;
+	height: .6rem;
+	padding: .6rem;
+	border-bottom: 1px solid #f2f2f2;
+}
+.address-head span {
+	float: left;
+	display: block;
+	width: 2rem;
+	height: .6rem;
+	margin-right: .5rem;
+	font-size: .32rem;
+	text-align: center;
+	line-height: .6rem;
+	border: 1px solid #808080;
+	border-radius: .053rem;
+}
+.address-head .close {margin-right: 0;}
+.address-head .add-choose {
+	color: #fff;
+	background-color: #FA8D0C;
+	 border: 1px solid #FA8D0C;
+}
+.address-head .close {
+	border: none;
+	width: .6rem;
+	height: .6rem;
+	float: right;
+	background: url(../img/icon/window_close.png) center center no-repeat;
+	background-size: 100%;
+	
+}
+.address-con {
+	height: 10rem;
+	padding: 0.5rem 0;
+}
+.address-c ul,.new-address {
+	display: none;
+	width: 9rem;
+	height: 10rem;
+	padding: 0 .5rem;
+	margin-bottom: .5rem;
+	overflow-y: auto;
+}
+.new-address {display: none;}
+.new-address li {
+	height: 1rem;
+}
+.new-address li p {
+	float: left;
+	width: 2rem;
+	line-height: 1rem;
+	font-size: .4rem;
+}
+.new-address li input {
+	height: 1rem;
+	width: 6rem;
+	line-height: 1rem;
+	font-size: .4rem;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+}
+.address-c ul .clearfix {
+	position: relative;
+	padding: .4rem 0;
+	padding-left: .5rem;
+	border-bottom: 1px solid #f2f2f2;
+}
+.ch-ad {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 25%;
+	width: .4rem;
+	height: .4rem;
+	margin-left: -.2rem;
+	background: url(../img/icon/window_nosel.png) 0 0 no-repeat;
+	background-size: 100% auto;
+}
+.active {
+	background: url(../img/icon/window_sel.png) 0 0 no-repeat;
+	background-size: 100% auto;
+}
+.men-s {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+}
+.men-s p{
+	float: left;
+	width: 50%;
+	height: 1rem;
+	font-size: .4rem;
+}
+#men-name,#men-num {font-size: .36rem;}
+.men-address {
+	height: 1rem;
+	font-size: .36rem;
+}
+
+.affirms {
+	display: block;
+	width: 100%;
+	line-height: 1rem;
+	background-color: #FA8D0C;
+	font-size: .4rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 190px;
+}
+.prompt-box p span {
+    color: #3CFF00;
+}

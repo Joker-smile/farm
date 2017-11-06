@@ -1,0 +1,162 @@
+// .content {position: relative;}
+.content .order-back {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 2rem;
+}
+.nav {
+	position: fixed;
+	top: 0;
+	width: 10rem;
+	height: 1rem;
+	overflow: hidden;
+	border-bottom: 1px solid #e6e6e6;
+	z-index: 999;
+}
+.order-classify {
+	width: 10rem;
+	height: 1.2rem;
+	overflow-x: auto;
+	background-color: #fff;
+	overflow-y: hidden;
+}
+.classify-wrapper {
+	width: 10rem;
+	height: 1.2rem;
+}
+.classify-wrapper span {
+	float: left;
+	display: block;
+	width: 3.33rem;
+	height: 1rem;
+	font-size: .4rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #808080;
+	box-shadow: inset -1px 0px 0px 0px #e6e6e6;
+}
+.classify-wrapper span.Inactive {
+	color: #fff;
+	box-shadow:inset 0px 0px 0px 0px #fff;
+	background-color: #48be43;
+
+}
+.order-con {
+	position: absolute;
+	top: 1.2rem;
+	width: 10rem;
+	padding-bottom: 1.5rem;
+}
+.order-page {
+	width: 10rem;
+	margin-bottom: .32rem;
+	background-color: #fff;
+}
+.order-head {
+	height: .88rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+.order-head p {
+	float: left;
+	line-height: .88rem;
+	font-size: .32rem;
+}
+.order-head p:first-child {
+	width: 6rem;
+	padding-left: .5rem;
+	color: #808080;
+}
+.order-head p:last-child {
+	width: 3rem;
+	padding-right: .5rem;
+	text-align: right;
+	color: #48be43;
+}
+
+.order-body {
+	position: relative;
+}
+.o-body-con {
+	padding: .32rem .48rem;
+	margin: .2rem auto;
+}
+.order-body .o-next {
+	display: none;
+}
+.order-img {
+	float: left;
+	width: 2.4rem;
+	height: 2.4rem;
+	overflow: hidden;
+	text-align: center;
+}
+.order-img img {
+	width: 100%;
+	height: auto;
+}
+.order-infor {
+	float: left;
+	padding-left: .48rem;
+}
+.order-infor p {
+	width: 5rem;
+	height: .6rem;
+	font-size: .32rem;
+	line-height: .6rem;
+	overflow: hidden;
+	color: #010101;
+}
+#o_price,#o_count,#o_allprice,#o_type,#o_freebie,#o_weight {color: #fe0000;}
+.o-detail {
+	position: absolute;
+	top: 50%;
+	right: .48rem;
+	text-decoration: underline;
+	color: #21A9FF;
+
+}
+.order-foot { 
+	height: .88rem;
+	border-top: 1px solid #e6e6e6;
+}
+.foot_in {
+	padding: .2rem .48rem;
+}
+.foot_in .foot_pay {
+	display: block;
+	float: right;
+	width: 2.5rem;
+	height: .88rem;
+	line-height: .88rem;
+	border-radius: .05rem;
+	font-size: .32rem;
+	background-color: #FA8D0C;
+	color: #fff;
+	text-align: center;
+}
+.foot_in .foot_getTree,.foot_in .foot_getFluits {
+	border-radius: .05rem;
+	display: block;
+	float: right;
+	margin-left: 0.57rem;
+	width: 2.5rem;
+	height: .88rem;
+	line-height: .88rem;
+	font-size: .32rem;
+	color: #000;
+	text-align: center;
+	box-shadow: inset 0 0 0 1px #000;
+}
+.foot-click {
+	line-height: .88rem;
+	color: #21A9FF;
+	padding-left: .5rem;
+	font-size: .32rem;
+	background: url(../img/icon/godown.png) 0 0 no-repeat;
+	background-size: auto 100%;
+}
+.foot-click-up {
+	background: url(../img/icon/goup.png) 0 0 no-repeat;
+	background-size: auto 100%;
+}

@@ -1,0 +1,156 @@
+.content {padding-bottom: 1.2rem;}
+.order-detail-page {
+	width: 10rem;
+	margin-bottom: .32rem;
+	background-color: #fff;
+}
+.order-detail-head {
+	height: .88rem;
+	border-bottom: 1px solid #ccc;
+}
+.order-detail-head p {
+	float: left;
+	line-height: .88rem;
+	font-size: .32rem;
+	overflow: hidden;
+}
+.order-detail-head p:first-child {
+	width: 4.7rem;
+	padding-left: .3rem;
+	color: #808080;
+}
+.order-detail-head p:last-child {
+	width: 4.7rem;
+	padding-right: .3rem;
+	text-align: right;
+	color: #48be43;
+}
+
+.order-detail-body {
+	position: relative;
+}
+.o-body-con {
+	padding: .32rem .48rem;
+	margin: .2rem auto;
+}
+.order-detail-body .o-next {
+	display: none;
+}
+.order-detail-img {
+	float: left;
+	width: 3.15rem;
+	height: 3.15rem;
+	overflow: hidden;
+	text-align: center;
+}
+.order-detail-img img {
+	width: 100%;
+	height: auto;
+}
+.order-detail-infor {
+	float: left;
+	padding-left: .48rem;
+}
+.order-detail-infor p {
+	width: 5rem;
+	height: .6rem;
+	font-size: .32rem;
+	line-height: .6rem;
+	overflow: hidden;
+	color: #010101;
+}
+#o_price,#o_count,#o_express,#o_allprice,#o_type,#o_freebie,#o_weight {color: #fe0000;}
+.o-detail {
+	position: absolute;
+	top: 50%;
+	right: .48rem;
+	text-decoration: underline;
+	color: #21A9FF;
+
+}
+.order-detail-foot { 
+	height: .88rem;
+	border-top: 1px solid #ccc;
+}
+.order-address {
+	margin-bottom: .4rem;
+	background-color: #fff;
+	padding: .32rem .48rem;
+}
+.order-address h2 {
+	font-size: .32rem;
+	margin-bottom: .4rem;
+}
+.add-men-detail {
+	margin-bottom: .4rem;
+}
+.add-men-detail p {
+	float: left;
+	width: 50%;
+	font-size: .32rem;
+	color: #808080;
+}
+.add-men-detail p:last-child {
+	text-align: right;
+}
+.add_detail {
+	font-size: .32rem;
+	color: #808080;
+}
+.obligation {
+	position: relative;
+	margin-bottom: .4rem;
+	background-color: #fff;
+	padding: .32rem .48rem;
+}
+.obligation h2,.order-paid h2,.shipments h2 {
+	font-size: .32rem;
+	margin-bottom: 0.5rem;
+}
+.obligation p {
+	font-size: .32rem;
+	color: #fe0000;
+	margin-bottom: 0.64rem;
+}
+.obligation a {
+	font-size: .32rem;
+	text-decoration: underline;
+	color: #808080;
+} 
+.order-pay {
+	position: absolute;
+	bottom: .32rem;
+	right: .48rem;
+	width: 2.54rem;
+}
+.click-me {
+	height: 1rem;
+	padding-bottom: .11rem;
+	background: url(../img/icon/new.png) 0 0 no-repeat;
+	background-size: 100% auto;
+	line-height: 1rem;
+	text-align: center;
+	font-size: .4rem;
+	color: #808080;
+}
+.order-pay a {
+	display: block;
+	width: 2.54rem;
+	height: .8rem;
+	line-height: .8rem;
+	font-size: .4rem;
+	text-align: center;
+	color: #fff;
+	background-color: #FA8D0C;
+	border-radius: .1rem;
+}
+.order-paid,.shipments {
+	margin-bottom: .4rem;
+	background-color: #fff;
+	padding: .32rem .48rem;
+}
+.order-paid p,.shipments p {
+	font-size: .32rem;
+	color: #808080;
+	padding-bottom: 1rem;
+}

@@ -1,0 +1,32 @@
+.share-r {
+	width: 10rem;
+}
+.share-r li {
+	height: 0.6rem;
+	padding: .7rem .5rem;
+	border-bottom: 1px solid #e6e6e6;
+}
+.head-img,#men_name,#share_day,#share_count {float: left;}
+.head-img {
+	width: .6rem;
+	height: .6rem;
+}
+.head-img img {
+	width: 100%;
+	height: 100%;
+}
+#men_name,#share_day,#share_count {
+	width: 2.8rem;
+	text-align: center;
+	font-size: .36rem;
+	line-height: .6rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#men_name,#share_day {
+	color: #808080;
+}
+#share_count {
+	text-align: right;
+}

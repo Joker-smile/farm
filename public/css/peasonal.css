@@ -1,0 +1,84 @@
+.content {
+	padding-bottom: 1.2rem;
+}
+.pea-header {
+	position: relative;
+	height: 3.7rem;
+	background: url(../img/image/head-back.png) 0 0 no-repeat;
+	background-size: 100% auto;
+}
+.pea-head {
+	position: absolute;
+	top: 50%;
+	width: 10rem;
+	height: 2.4rem;
+	margin-top: -1.2rem;
+}
+.pea-via {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 0 auto;
+}
+.pea-via img {
+	width: 100%;
+	height: 100%;
+}
+.pea-name {
+	font-size: .4rem;
+	line-height: .9rem;
+	color: #fff;
+	text-align: center;
+}
+.pea-integral {
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+	color:#fff;
+	font-size: .32rem;
+}
+.pea-gift {
+	position: absolute;
+	right: .5rem;
+	top: .5rem;
+	color: #fff;
+	font-size: .32rem;
+	text-decoration:underline;
+}
+.pea-con {padding-bottom: .5rem;}
+.pea-con ul li {
+	height: 1rem;
+	padding: .5rem .6rem;
+	background: #fff url(../img/icon/me_go.png) 9rem center no-repeat;
+	background-size: 5% auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.pea-con ul li p {
+	float: left;
+	font-size: .4rem;
+	padding-left: 0.9rem;
+	line-height: 1rem;
+	color: #808080;
+}
+li.my_order p {
+	background: url(../img/icon/me_myorder.png) 0 center no-repeat;
+	background-size: auto 60%;
+}li.my_wallet p {
+	background: url(../img/icon/me_money.png) 0 center no-repeat;
+	background-size: auto 60%;
+}li.my_sub p {
+	background: url(../img/icon/me_buy.png) 0 center no-repeat;
+	background-size: auto 60%;
+}li.my_fruits p {
+	background: url(../img/icon/me_fruit.png) 0 center no-repeat;
+	background-size: auto 60%;
+}li.my_tree p {
+	background: url(../img/icon/me_tree.png) 0 center no-repeat;
+	background-size: auto 60%;
+}li.my_share p {
+	background: url(../img/icon/me_share.png) 0 center no-repeat;
+	background-size: auto 60%;
+}li.my_options p {
+	background: url(../img/icon/me_info.png) 0 center no-repeat;
+	background-size: auto 60%;
+}

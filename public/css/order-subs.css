@@ -1,0 +1,121 @@
+.content {
+	padding-bottom: 1.2rem;
+}
+.con-show {
+	width: 9.4rem;
+	height: 1rem;
+	padding: 1rem 0;
+	margin: .5rem auto .5rem;
+	background: url(../img/image/head-back.png) 0 0 no-repeat;
+	background-size: 100%;
+}
+.con-show p {
+	text-align: center;
+	color: #fff;
+	line-height: 1rem;
+	font-size: .4rem;
+}
+.con-show p span {
+	color: #FA8D0C;
+}
+.subs-order {
+	width: 9.4rem;
+	margin: 0 auto;
+}
+.subs-day {
+	line-height: 1rem;
+	color: #808080;
+}
+.subs-day .begin-day {
+	float: left;
+}
+.subs-day span {
+	float: right;
+}
+.subs-con {
+	position: relative;
+	padding: 1rem 0;
+	border-radius: .1rem;
+	background-color: #fff;
+}
+.news {
+	position: absolute;
+	left: 0;
+	top: .15rem;
+	background-color: #48be43;
+	color: #fff;
+	font-size: .4rem;
+	padding: .1rem;
+}
+.due-time {
+	float: left;
+	padding: 0 1rem;
+	vertical-align: middle;
+}
+.time p {
+	font-size: .4rem;
+	line-height: .6rem;
+}
+.time #time_in {
+	font-size: 1rem;
+	line-height: 1.4rem;
+}
+.time img {
+	margin-top: 1rem;
+	width: 100%;
+	height: auto;
+}
+.jindutiao {
+	width: 100%;
+	height: .4rem;
+	border: 1px solid #888;
+}
+.jindu {
+	background-color: #48be43;
+	width: 80%;
+	height: .4rem;
+}
+.subs-infor {
+	float: left;
+	padding: 0 1rem;
+	border-left: 1px solid #ccc; 
+}
+.subs-infor ul li {
+	font-size: .32rem;
+	line-height: .5rem;
+}
+
+.order-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 10rem;
+	height: 1rem;
+	border-top: 1px solid #ccc;
+	background-color: #fff;
+}
+.order-footer a {
+	float: left;
+	display: block;
+	width: 5rem;
+	height: 1rem;
+	box-shadow: 0px 1px 0px 0px #ccc;
+	line-height: 1rem;
+	font-size: .4rem;
+	text-align: center;
+}
+.renew {
+	top: 50%;
+	margin-top: 0.95rem;
+	display: block;
+	width: 2rem;
+	height: 1.1rem;
+	border-radius: .1rem;
+	background-color: #FA8D0C;
+	line-height: 1.1rem;
+	font-size: .4rem;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+
+}

@@ -1,0 +1,51 @@
+.my-fluits {
+	position: relative;
+	width: 10rem;
+	height: 3.6rem;
+	background-color: #48be43;
+}
+.fluits-s {
+	position: absolute;
+	left: .5rem;
+	top: .5rem;
+	font-size: .4rem;
+	color: #fff;
+}
+.my-fluits a {
+	position: absolute;
+	right: .5rem;
+	top: .5rem;
+	font-size: .4rem;
+	color: #fff;
+	text-decoration: underline;
+}
+.fluits {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	width: 8rem;
+	line-height: 2rem;
+	text-align: center;
+	margin: -1rem 0 0 -4rem;
+	font-size: 0.8rem;
+	color: #fff;
+}
+#all_fluits {font-size: 1.2rem;}
+.draw {
+	width: 10rem;
+	height: 1rem;
+	padding: 1rem 0;
+	background-color: #fff;
+}
+.my_draw {
+	display: block;
+	width: 8rem;
+	height: 1rem;
+	margin: 0 auto;
+	line-height: 1rem;
+	border-radius: .1rem;
+	background-color: #FA8D0C;
+	text-align: center;
+	font-size: .4rem;
+	color: #fff;
+}

@@ -1,0 +1,81 @@
+.content {
+	position: relative;
+}
+.share-photo {
+	width: 10rem;
+}
+.share-photo img {
+	width: 100%;
+	height: 100%;
+}
+.mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	z-index: 9;
+}
+.mask-hint {
+	width: 100%;
+	height: 1rem;
+	padding: .2rem 0;
+	background: url(../img/icon/share.png) 7rem center no-repeat;
+	background-size: auto 75%;
+}
+.mask-text {
+	width: 80%;
+	padding: 0.5rem 10%;
+	line-height: 0.7rem;
+	font-size: 0.45rem;
+	text-align: center;
+	color: #fff;
+}
+.mask-text span{
+	color: #FA8D0C;
+}
+.mask-box {
+	width: 7rem;
+	padding: 1rem;
+	border: 1px solid #fff;
+	margin: 0 auto 1rem;
+}
+.mask-box p,.record {
+	font-size: 0.44rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+}
+.mask-box p.mask-num {
+	line-height: 3rem;
+}
+#mask_count {
+	font-size: 2.1rem;
+}
+.record {
+	display: block;
+	margin: 0 auto;
+	text-decoration: underline;
+	margin-bottom: 1.5rem;
+}
+.share {
+	display: block;
+	width: 6.6rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 1.2rem;
+	font-size: .44rem;
+	text-align: center;
+	border-radius: .1rem;
+	background-color: #FA8D0C;
+}
+.statement {
+	width: 9rem;
+	padding: 0 .5rem;
+}
+.statement p {
+	font-size: 0.4rem;
+	color: #fff;
+}

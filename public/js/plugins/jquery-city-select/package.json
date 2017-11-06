@@ -1,0 +1,35 @@
+{
+  "name": "jquery.city.select.js",
+  "version": "1.1.0",
+  "description": "A simple city select plugin for jquery.",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soulteary/jquery-city-select.git"
+  },
+  "keywords": [
+    "jquery",
+    "city select"
+  ],
+  "author": "soulteary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soulteary/jquery-city-select/issues"
+  },
+  "homepage": "https://github.com/soulteary/jquery-city-select",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-amdclean": "^1.1.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-less": "^3.0.3",
+    "gulp-lint-everything": "^0.3.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-requirejs": "^0.1.3",
+    "gulp-rm": "^1.0.0",
+    "gulp-uglyfly": "^1.4.2",
+    "gulp-wrap": "^0.11.0"
+  }
+}

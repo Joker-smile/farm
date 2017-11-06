@@ -1,0 +1,22 @@
+.fluits-record {
+	width: 10rem;
+}
+.fluits-record li {
+	width: 9rem;
+	height: 1rem;
+	line-height: 1rem;
+	padding: .5rem .5rem;
+	background-color: #fff;
+	border-bottom: 1px solid #e6e6e6;
+}
+#fluits-operate,#fluits-sum {
+	float: left;
+	width: 70%;
+	font-size: .4rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#fluits-operate {color: #808080;}
+#fluits-sum {width: 30%;text-align: right;}
+.fluits_add {color: #48be43;}

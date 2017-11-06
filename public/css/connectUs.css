@@ -1,0 +1,30 @@
+.qr-code {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	width: 4.4rem;
+	margin-left: -2.2rem;
+}
+.qr-img {
+	width: 4.4rem;
+	height: 4.4rem;
+	overflow: hidden;
+	margin-bottom: .3rem;
+}
+.qr-img img {
+	width: 100%;
+	height: 100%;
+}
+.qr-code p {
+	font-size: .4rem;
+	color: #808080;
+}
+.con-phone {
+	padding-top: 1rem;
+}
+.con-phone p {
+	color: #fe0000;
+	font-size: .32rem;
+	line-height: 0.48rem;
+	text-align: center;
+}

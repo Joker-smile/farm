@@ -1,0 +1,173 @@
+/* 
+* @Author: anchen
+* @Date:   2017-05-19 09:37:18
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-07-07 14:24:53
+*/
+.con {
+    width: 10rem;
+    height: 100%;
+    
+}
+.con form {
+    width: 8.92rem;
+    height: 100%;
+    padding: .54rem .54rem 0;
+    background-color: #fff;
+    
+}
+.form-slide {
+    width: 8.92rem;
+    line-height: 0.59rem;
+    font-size: .4rem;
+    margin-bottom: .54rem;
+}
+.form-slide h2 {
+    float: left;
+    width: 1.72rem;
+    text-align: right;
+    padding-right: 1.08rem;
+}
+.form-slide input {
+    outline:none;
+    border: none;
+    width: 6.12rem;
+}
+.click {
+    width: 6.12rem;
+    height: 0.59rem;
+    padding-left: 2.8rem;
+    margin-bottom: 0.54rem;
+    line-height: .59rem;
+}
+.click span {
+    display: inline-block;
+    margin-right: .4rem;
+    vertical-align: middle;
+    margin-top: -0.17rem;
+    border-radius: 50%;
+}
+span.default {
+    width: 0.34rem;
+    height: 0.34rem;
+    box-shadow: 0 0 0 1px #808080;
+    background-color: #fff;
+}
+span.onclick {
+    
+    width: .26rem;
+    height: .26rem;
+    border: .04rem solid #fff;
+    box-shadow: 0 0 0 1px #48be43;
+    background-color: #48be43;
+}
+.click p {
+    display: inline-block;
+    width: 5rem;
+    font-size: .4rem;
+    line-height: 0.59rem;
+}
+
+/*弹窗*/
+.screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 995;
+}
+.pop-up {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 6.92rem;
+    /*height: 4.32rem;*/
+    padding: 0.54rem;
+    margin: -2.7rem 0 0 -4rem;
+    background-color: #fff!important;
+    border-radius: 4px;
+}
+.pop-up .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0.54rem;
+    height: 0.54rem;
+    background: url(../image/s/close_icon.png) center center no-repeat;
+    background-size: 70% auto;
+}
+.pop-up h2 {
+    line-height: 1.41rem;
+    color: #48be43;
+    font-size: 0.6rem;
+}
+#citySelect  {
+    width: 6.92rem;
+}
+#citySelect .control-group{
+    width: 6.92rem;
+    height: 1rem;
+    margin-bottom: .2rem;
+}
+.control-group label {
+    float: left;
+    width: 2rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .4rem;
+}
+.control-group .controls {
+    margin-left: 2rem;
+    height: 1rem;
+}
+.controls select {
+    width: 4rem;
+    height: 1rem;
+    border-radius: 5px;    
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.pop-in {
+    width: 6.92rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.pop-in span {
+    float: left;
+    display: block;
+    width: 3.2rem;
+    text-align: center;
+    font-size: .4rem;
+    box-shadow: inset 0 0 1px 0 #808080;
+    border-radius: 4px;
+}
+.pop-in span {margin-right: .2rem; color: #808080;}
+.form-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10rem;
+    height: 1.2rem;
+    box-shadow: 0 -1px 0 0 #e6e6e6;
+}
+.form-footer button {
+    float: left;
+    display: block;
+    width: 5rem;
+    height: 1.2rem;
+    text-align: center;background-color: #fff;
+    font-size: .4rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 -1px 0 0 #f2f2f2;
+
+}
+/*button.abolish {margin-right: 0.92rem;}*/
+button.conserve {
+    background-color: #48be43;
+    color: #fff;
+}
